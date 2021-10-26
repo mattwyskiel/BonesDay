@@ -8,9 +8,12 @@
 import SwiftUI
 
 struct ContentView: View {
+    @StateObject var viewModel = BonesDayViewModel()
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        BonesDayView(bonesDay: viewModel.bonesDay)
+            .task {
+                await viewModel.refreshBonesDay()
+            }
     }
 }
 

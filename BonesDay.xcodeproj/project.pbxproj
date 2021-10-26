@@ -14,6 +14,18 @@
 		A434FC6F27279653004F8F97 /* BonesDayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A434FC6E27279653004F8F97 /* BonesDayTests.swift */; };
 		A434FC7927279653004F8F97 /* BonesDayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A434FC7827279653004F8F97 /* BonesDayUITests.swift */; };
 		A434FC7B27279653004F8F97 /* BonesDayUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A434FC7A27279653004F8F97 /* BonesDayUITestsLaunchTests.swift */; };
+		A434FC8927279C22004F8F97 /* BonesDayModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A434FC8827279C22004F8F97 /* BonesDayModel.swift */; };
+		A434FC8C27279D21004F8F97 /* BonesDayHistoryService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A434FC8B27279D21004F8F97 /* BonesDayHistoryService.swift */; };
+		A434FC8F27279EA9004F8F97 /* BonesDayViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A434FC8E27279EA9004F8F97 /* BonesDayViewModel.swift */; };
+		A434FC922727A196004F8F97 /* BonesDayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A434FC912727A196004F8F97 /* BonesDayView.swift */; };
+		A434FCB22727AAD8004F8F97 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A434FC992727AA0E004F8F97 /* WidgetKit.framework */; };
+		A434FCB32727AAD8004F8F97 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A434FC9B2727AA0E004F8F97 /* SwiftUI.framework */; };
+		A434FCB62727AAD8004F8F97 /* BonesDayWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = A434FCB52727AAD8004F8F97 /* BonesDayWidget.swift */; };
+		A434FCB82727AADA004F8F97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A434FCB72727AADA004F8F97 /* Assets.xcassets */; };
+		A434FCBC2727AADA004F8F97 /* BonesDayWidgetExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = A434FCB12727AAD8004F8F97 /* BonesDayWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A434FCC02727AC1A004F8F97 /* BonesDayModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A434FC8827279C22004F8F97 /* BonesDayModel.swift */; };
+		A434FCC12727AC1D004F8F97 /* BonesDayHistoryService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A434FC8B27279D21004F8F97 /* BonesDayHistoryService.swift */; };
+		A434FCC22727AC2D004F8F97 /* BonesDayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A434FC912727A196004F8F97 /* BonesDayView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,7 +43,28 @@
 			remoteGlobalIDString = A434FC5927279651004F8F97;
 			remoteInfo = BonesDay;
 		};
+		A434FCBA2727AADA004F8F97 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A434FC5227279651004F8F97 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A434FCB02727AAD8004F8F97;
+			remoteInfo = BonesDayWidgetExtension;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A434FCA92727AA10004F8F97 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				A434FCBC2727AADA004F8F97 /* BonesDayWidgetExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		A434FC5A27279651004F8F97 /* BonesDay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BonesDay.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +77,16 @@
 		A434FC7427279653004F8F97 /* BonesDayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BonesDayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A434FC7827279653004F8F97 /* BonesDayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BonesDayUITests.swift; sourceTree = "<group>"; };
 		A434FC7A27279653004F8F97 /* BonesDayUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BonesDayUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A434FC8827279C22004F8F97 /* BonesDayModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BonesDayModel.swift; sourceTree = "<group>"; };
+		A434FC8B27279D21004F8F97 /* BonesDayHistoryService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BonesDayHistoryService.swift; sourceTree = "<group>"; };
+		A434FC8E27279EA9004F8F97 /* BonesDayViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BonesDayViewModel.swift; sourceTree = "<group>"; };
+		A434FC912727A196004F8F97 /* BonesDayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BonesDayView.swift; sourceTree = "<group>"; };
+		A434FC992727AA0E004F8F97 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		A434FC9B2727AA0E004F8F97 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		A434FCB12727AAD8004F8F97 /* BonesDayWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = BonesDayWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		A434FCB52727AAD8004F8F97 /* BonesDayWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BonesDayWidget.swift; sourceTree = "<group>"; };
+		A434FCB72727AADA004F8F97 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A434FCB92727AADA004F8F97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +111,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A434FCAE2727AAD8004F8F97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A434FCB32727AAD8004F8F97 /* SwiftUI.framework in Frameworks */,
+				A434FCB22727AAD8004F8F97 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -77,6 +129,8 @@
 				A434FC5C27279651004F8F97 /* BonesDay */,
 				A434FC6D27279653004F8F97 /* BonesDayTests */,
 				A434FC7727279653004F8F97 /* BonesDayUITests */,
+				A434FCB42727AAD8004F8F97 /* BonesDayWidget */,
+				A434FC982727AA0E004F8F97 /* Frameworks */,
 				A434FC5B27279651004F8F97 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -87,6 +141,7 @@
 				A434FC5A27279651004F8F97 /* BonesDay.app */,
 				A434FC6A27279653004F8F97 /* BonesDayTests.xctest */,
 				A434FC7427279653004F8F97 /* BonesDayUITests.xctest */,
+				A434FCB12727AAD8004F8F97 /* BonesDayWidgetExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -94,6 +149,10 @@
 		A434FC5C27279651004F8F97 /* BonesDay */ = {
 			isa = PBXGroup;
 			children = (
+				A434FC902727A182004F8F97 /* Views */,
+				A434FC8D27279E97004F8F97 /* ViewModel */,
+				A434FC8A27279D10004F8F97 /* Services */,
+				A434FC8727279C03004F8F97 /* Model */,
 				A434FC5D27279651004F8F97 /* BonesDayApp.swift */,
 				A434FC5F27279651004F8F97 /* ContentView.swift */,
 				A434FC6127279653004F8F97 /* Assets.xcassets */,
@@ -127,6 +186,57 @@
 			path = BonesDayUITests;
 			sourceTree = "<group>";
 		};
+		A434FC8727279C03004F8F97 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A434FC8827279C22004F8F97 /* BonesDayModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A434FC8A27279D10004F8F97 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				A434FC8B27279D21004F8F97 /* BonesDayHistoryService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		A434FC8D27279E97004F8F97 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				A434FC8E27279EA9004F8F97 /* BonesDayViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		A434FC902727A182004F8F97 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A434FC912727A196004F8F97 /* BonesDayView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A434FC982727AA0E004F8F97 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A434FC992727AA0E004F8F97 /* WidgetKit.framework */,
+				A434FC9B2727AA0E004F8F97 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A434FCB42727AAD8004F8F97 /* BonesDayWidget */ = {
+			isa = PBXGroup;
+			children = (
+				A434FCB52727AAD8004F8F97 /* BonesDayWidget.swift */,
+				A434FCB72727AADA004F8F97 /* Assets.xcassets */,
+				A434FCB92727AADA004F8F97 /* Info.plist */,
+			);
+			path = BonesDayWidget;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,10 +247,12 @@
 				A434FC5627279651004F8F97 /* Sources */,
 				A434FC5727279651004F8F97 /* Frameworks */,
 				A434FC5827279651004F8F97 /* Resources */,
+				A434FCA92727AA10004F8F97 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				A434FCBB2727AADA004F8F97 /* PBXTargetDependency */,
 			);
 			name = BonesDay;
 			productName = BonesDay;
@@ -183,6 +295,23 @@
 			productReference = A434FC7427279653004F8F97 /* BonesDayUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		A434FCB02727AAD8004F8F97 /* BonesDayWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A434FCBD2727AADB004F8F97 /* Build configuration list for PBXNativeTarget "BonesDayWidgetExtension" */;
+			buildPhases = (
+				A434FCAD2727AAD8004F8F97 /* Sources */,
+				A434FCAE2727AAD8004F8F97 /* Frameworks */,
+				A434FCAF2727AAD8004F8F97 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BonesDayWidgetExtension;
+			productName = BonesDayWidgetExtension;
+			productReference = A434FCB12727AAD8004F8F97 /* BonesDayWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -204,6 +333,9 @@
 						CreatedOnToolsVersion = 13.1;
 						TestTargetID = A434FC5927279651004F8F97;
 					};
+					A434FCB02727AAD8004F8F97 = {
+						CreatedOnToolsVersion = 13.1;
+					};
 				};
 			};
 			buildConfigurationList = A434FC5527279651004F8F97 /* Build configuration list for PBXProject "BonesDay" */;
@@ -222,6 +354,7 @@
 				A434FC5927279651004F8F97 /* BonesDay */,
 				A434FC6927279653004F8F97 /* BonesDayTests */,
 				A434FC7327279653004F8F97 /* BonesDayUITests */,
+				A434FCB02727AAD8004F8F97 /* BonesDayWidgetExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -250,6 +383,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A434FCAF2727AAD8004F8F97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A434FCB82727AADA004F8F97 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -258,7 +399,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				A434FC6027279651004F8F97 /* ContentView.swift in Sources */,
+				A434FC922727A196004F8F97 /* BonesDayView.swift in Sources */,
+				A434FC8927279C22004F8F97 /* BonesDayModel.swift in Sources */,
 				A434FC5E27279651004F8F97 /* BonesDayApp.swift in Sources */,
+				A434FC8C27279D21004F8F97 /* BonesDayHistoryService.swift in Sources */,
+				A434FC8F27279EA9004F8F97 /* BonesDayViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,6 +424,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A434FCAD2727AAD8004F8F97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A434FCC02727AC1A004F8F97 /* BonesDayModel.swift in Sources */,
+				A434FCC22727AC2D004F8F97 /* BonesDayView.swift in Sources */,
+				A434FCC12727AC1D004F8F97 /* BonesDayHistoryService.swift in Sources */,
+				A434FCB62727AAD8004F8F97 /* BonesDayWidget.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -291,6 +447,11 @@
 			isa = PBXTargetDependency;
 			target = A434FC5927279651004F8F97 /* BonesDay */;
 			targetProxy = A434FC7527279653004F8F97 /* PBXContainerItemProxy */;
+		};
+		A434FCBB2727AADA004F8F97 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A434FCB02727AAD8004F8F97 /* BonesDayWidgetExtension */;
+			targetProxy = A434FCBA2727AADA004F8F97 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -414,6 +575,7 @@
 		A434FC7F27279653004F8F97 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -443,6 +605,7 @@
 		A434FC8027279653004F8F97 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -565,6 +728,60 @@
 			};
 			name = Release;
 		};
+		A434FCBE2727AADB004F8F97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5XPCB5TC44;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BonesDayWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = BonesDayWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mattwyskiel.BonesDay.BonesDayWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A434FCBF2727AADB004F8F97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5XPCB5TC44;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BonesDayWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = BonesDayWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mattwyskiel.BonesDay.BonesDayWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -600,6 +817,15 @@
 			buildConfigurations = (
 				A434FC8527279653004F8F97 /* Debug */,
 				A434FC8627279653004F8F97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A434FCBD2727AADB004F8F97 /* Build configuration list for PBXNativeTarget "BonesDayWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A434FCBE2727AADB004F8F97 /* Debug */,
+				A434FCBF2727AADB004F8F97 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
