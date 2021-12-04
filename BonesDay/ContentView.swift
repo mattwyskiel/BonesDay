@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import WidgetKit
 
 struct ContentView: View {
     @StateObject var viewModel = BonesDayViewModel()
@@ -13,6 +14,7 @@ struct ContentView: View {
         BonesDayView(bonesDay: viewModel.bonesDay)
             .task {
                 await viewModel.refreshBonesDay()
+                WidgetCenter.shared.reloadAllTimelines()
             }
     }
 }
